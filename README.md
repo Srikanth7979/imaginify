@@ -45,6 +45,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # User Management
 
 - Clerk Platform is used http://clerk.com
+- Sync Users Data from Clerk to Database using webhooks https://clerk.com/docs/integrations/webhooks/sync-data
 
 # ShadCn Components
 
