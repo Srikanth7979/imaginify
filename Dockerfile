@@ -1,4 +1,5 @@
-FROM node:14
+# Use a Docker image with Node.js version >= v18.17.0
+FROM node:18
 
 WORKDIR /app
 
