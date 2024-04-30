@@ -1,5 +1,4 @@
-# Use a Docker image with Node.js version >= v18.17.0
-FROM node:18
+FROM node:14
 
 WORKDIR /app
 
@@ -8,6 +7,9 @@ COPY package*.json ./
 RUN npm install
 
 COPY . .
+
+# Build the Next.js application for production
+RUN npm run build
 
 EXPOSE 3000
 
