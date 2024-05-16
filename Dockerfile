@@ -11,7 +11,7 @@ COPY . .
 # Build the Next.js application for production
 RUN npm run build
 
-RUN run npm dev
+RUN npm run dev
 
 EXPOSE 3000
 
